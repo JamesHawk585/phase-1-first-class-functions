@@ -8,7 +8,6 @@ describe("index", () => {
   describe("receivesAFunction(callback)", () => {
     it("receives a function and calls it", () => {
       const spy = chai.spy();
-
       receivesAFunction(spy);
 
       expect(spy).to.have.been.called();
